@@ -27,3 +27,7 @@
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
 }
+
+.navbar_icon{
+    cursor: pointer;
+}

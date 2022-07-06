@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import "./Navbar.css";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 function Navbar({ showSignInButton, logout, show }) {
   const navigate = useNavigate();
@@ -26,6 +27,12 @@ function Navbar({ showSignInButton, logout, show }) {
         <button className="navbar_button" onClick={goToSignInPage}>
           Sign In
         </button>
+      )}
+
+      {logout && (
+        <p className="navbar_icon">
+          <AccountCircleIcon />
+        </p>
       )}
     </div>
   );
