@@ -1,8 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar(showSignInButton) {
+function Navbar({ showSignInButton, logout, show }) {
+  const navigate = useNavigate();
+
+  const goToSignInPage = () => {
+    navigate("/sign-in");
+  };
+
   return (
     <div className="navbar_container">
       <img
@@ -15,9 +22,7 @@ function Navbar(showSignInButton) {
       {showSignInButton === false ? ("") : (
       <button className="navbar_button">Sign In</button>)}
       </Link> */}
-      {showSignInButton === false ? (
-        " "
-      ) : (
+      {showSignInButton === false ? (" ") : (
         <button className="navbar_button" onClick={goToSignInPage}>
           Sign In
         </button>
