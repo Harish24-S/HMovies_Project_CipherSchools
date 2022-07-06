@@ -7,6 +7,16 @@
     /* border-bottom: solid rgb(171, 217, 232) ; */
 }
 
+.navbar_color{
+    height: 50px;
+    background-color:  rgb(232, 240, 243);
+    border-bottom: 1px solid rgb(171, 217, 232) ;
+}
+.navbar_dark{
+    background-color: rgb(45, 45, 94);
+    height: 50px;
+}
+
 .navbar_logo{
     width: 70px;
     padding-top: 10px;
