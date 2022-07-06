@@ -12,7 +12,9 @@ function Navbar({ showSignInButton, logout, show }) {
   };
 
   return (
-    <div className="navbar_container">
+    <div className={`navbar_container ${show && "navbar_color"} ${
+      dark && "navbar_dark"
+    }`}>
       <img
         className="navbar_logo"
         src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-movie-cinema-kiranshastry-lineal-color-kiranshastry-2.png"
