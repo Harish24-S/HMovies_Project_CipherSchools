@@ -1,0 +1,29 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  aquamarine;
+    padding: 0 5%;
+    /* border-bottom: solid rgb(171, 217, 232) ; */
+}
+
+.navbar_logo{
+    width: 70px;
+    padding-top: 10px;
+}
+
+.navbar_button{
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navbar_title{
+    /* font-size: 30px; */
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
