@@ -1,4 +1,4 @@
-const API_KEY = "3653c65d49aec32d55c3b5dd49c7b021";
+const API_KEY = "fdedfef3a4a4520a9412a99ce4494ad1";
 
 const requests = {
   // fetchTrending:`/trending/all/week?api_key=${API_KEY}&language=en-US`,
@@ -9,6 +9,6 @@ const requests = {
   fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
-//https://api.themoviedb.org/3/trending/all/week?api_key=3653c65d49aec32d55c3b5dd49c7b021&language=en-US
+//https://api.themoviedb.org/3/trending/all/week?api_key=fdedfef3a4a4520a9412a99ce4494ad1&language=en-US
 export default requests;
-// https://image.tmdb.org/t/p/original/trending/all/week?api_key=3653c65d49aec32d55c3b5dd49c7b021&language=en-US
+// https://image.tmdb.org/t/p/original/trending/all/week?api_key=fdedfef3a4a4520a9412a99ce4494ad1&language=en-US
