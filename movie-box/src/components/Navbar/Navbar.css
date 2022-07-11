@@ -1,13 +1,27 @@
 .navbar_container{
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:  aquamarine;
-    padding: 0 5%;
+    padding: 0 5%; */
     /* border-bottom: solid rgb(171, 217, 232) ; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+.user_name{
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 14px;
+    right: 80px;
 }
 
 .navbar_color{
+    /* height: 50px;
+    background-color:  rgb(232, 240, 243);
+    border-bottom: 1px solid rgb(171, 217, 232) ; */
     height: 50px;
     background-color:  rgb(232, 240, 243);
     border-bottom: 1px solid rgb(171, 217, 232) ;
@@ -18,11 +32,20 @@
 }
 
 .navbar_logo{
-    width: 70px;
-    padding-top: 10px;
+    /* width: 70px;
+    padding-top: 10px; */
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
 }
 
 .navbar_button{
+    position: fixed;
+    top: 20px;
+    right: 10px;
     background-color: black;
     color: white;
     padding: 10px 16px;
@@ -32,12 +55,16 @@
     cursor: pointer;
 }
 
-.navbar_title{
-    /* font-size: 30px; */
+/* .navbar_title{
+    font-size: 30px;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
-}
+} */
 
 .navbar_icon{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    color: blue;
     cursor: pointer;
 }
