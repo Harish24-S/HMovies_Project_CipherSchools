@@ -1,7 +1,7 @@
 .landingpagecontent_container{
     background-color: aquamarine;
     /* background-image: url("https://miro.medium.com/max/1400/1*OKuHAM4QUamyMRUE0G-CiQ.jpeg"); */
-    height: 95vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -12,7 +12,7 @@ function Banner() {
 
   async function fetchData() {
     const request = await axios.get(
-      "https://api.themoviedb.org/3/trending/all/week?api_key=3653c65d49aec32d55c3b5dd49c7b021&language=en-US"
+      "https://api.themoviedb.org/3/trending/all/week?api_key=fdedfef3a4a4520a9412a99ce4494ad1&language=en-US"
     );
     setMovie(
       request.data.results[
@@ -47,7 +47,7 @@ function Banner() {
           <button>Play</button>
           <button>My List</button>
         </div>
-        <h3>{truncate(movie?.overview, 80)}</h3>
+        <h3>{truncate(movie?.overview, 200)}</h3>
       </div>
     </div>
   )
