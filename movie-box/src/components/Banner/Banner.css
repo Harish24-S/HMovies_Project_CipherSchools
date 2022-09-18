@@ -1,29 +1,42 @@
 .banner{
     position: relative;
-    height: 75vh;
+    /* height: 52vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: aliceblue;
+    color: white;
     z-index: -1;
+    width: 100%;
+    /* margin-top: 0; */
+    margin: 0px;
+    padding: 0px;
+    height: 70vh;
+    
+    /* position: absolute; */
+    /* top:0px; */
 }
 .banner_contents{
-    width: fit-content;
+    width: 100%;
     padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.141);
+    height: 100%;
+    padding-top: 200px;
 }
 .banner_contents > h3{
     padding-top: 20px;
-    /* width: 400px; */
-    font-size: 0.9rem;
-    font-style: italic;
+    width:50%;
     font-weight: bolder;
-    width: 30vw;
-    color: white;
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+.banner_contents > h1{
+    color: whitesmoke;
+    font-size: 2.5rem;
 }
 .banner_buttons{
     display: flex;
     justify-content: space-between;
-    width: 140px;
+    width: 300px;
     padding-top: 20px;
 }
 .banner_buttons > button{
@@ -38,10 +51,12 @@
     background-color: rgb(88, 88, 213);
     font-size: 00.8rem;
     font-weight: bolder;
-    border-radius: 7px;
+    height: 30px;
+    width: 200px;
+    margin-left: 10px;
 }
 
-.banner_buttons > button :hover{
+.banner_buttons > button:hover{
     background-color: white;
     color: black;
     cursor: pointer;

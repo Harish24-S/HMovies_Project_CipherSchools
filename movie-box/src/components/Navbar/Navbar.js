@@ -38,13 +38,14 @@ function Navbar({ showSignInButton, logOut, show }) {
   return (
     <div className={`navbar_container ${show && "navbar_color"} ${
       dark && "navbar_dark"
-    }`}>
-      <img
-        className="navbar_logo"
-        src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-movie-cinema-kiranshastry-lineal-color-kiranshastry-2.png"
-        alt="Logo"
-      />
-      {/* <h1 className="navbar_title">HMovies</h1> */}
+    }`}>{!dark ? <img
+      className="navbar_logo"
+      // src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-movie-cinema-kiranshastry-lineal-color-kiranshastry-2.png"
+      src="https://nvanha.github.io/react-movie-app/favicon.png"
+      alt="Logo"
+    />: <h1 className="navbar_title">HMovies</h1>}
+      
+      {/*  */}
       {/* <Link to="/sign-in">
       {showSignInButton === false ? ("") : (
       <button className="navbar_button">Sign In</button>)}
