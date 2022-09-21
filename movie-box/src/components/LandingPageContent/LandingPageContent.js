@@ -22,9 +22,9 @@ function LandingPageContent() {
         Ready to watch? Enter your email to create or restart your membership.{" "}
       </p>
       <div className="landingpagecontent_input">
-        <input type="text" />
+        <input type="text" placeholder="Email address" />
        
-        <button className="landingpagecontent_button" onClick={goToSignInPage}>GET STARTED</button>
+        <button className="landingpagecontent_button" onClick={goToSignInPage}> GET STARTED </button>
         
       </div>
     </div>
