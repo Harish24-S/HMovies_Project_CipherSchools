@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import "./Navbar.css";
+import hmovies from "../../images/hmovies.png";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -41,7 +42,8 @@ function Navbar({ showSignInButton, logOut, show }) {
     }`}>{!dark ? <img
       className="navbar_logo"
       // src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-movie-cinema-kiranshastry-lineal-color-kiranshastry-2.png"
-      src="https://nvanha.github.io/react-movie-app/favicon.png"
+      // src="https://nvanha.github.io/react-movie-app/favicon.png"
+      src={hmovies}
       alt="Logo"
     />: <h1 className="navbar_title">HMovies</h1>}
       
