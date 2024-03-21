@@ -25,13 +25,13 @@
 }
 .banner_contents > h3{
     padding-top: 20px;
-    width:50%;
+    width:30%;
     font-weight: bolder;
     font-size: 0.9rem;
     color: whitesmoke;
 }
 .banner_contents > h1{
-    color: whitesmoke;
+    color: #FEC779;
     font-size: 2.5rem;
 }
 .banner_buttons{

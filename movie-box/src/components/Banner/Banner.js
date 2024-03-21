@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import requests from "../../requests/Requests";
+// import requests from "../../requests/Requests";
 import "./Banner.css";
 
 function Banner() {
@@ -43,11 +43,7 @@ function Banner() {
           {" "}
           {movie?.original_name || movie?.original_title || movie?.title}{" "}
         </h1>
-        <div className="banner_buttons">
-          <button>▶ Play</button>
-          <button>ⓘ More Info</button>
-        </div>
-        <h3>{truncate(movie?.overview, 500)}</h3>
+        <h3>{truncate(movie?.overview, 1000)}</h3>
       </div>
     </div>
   )

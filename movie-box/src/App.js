@@ -6,9 +6,9 @@ import HomePage from './components/HomePage/HomePage';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
-  const { user, isAuthenticated, isLoading } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
 
-  console.log(user);
+  console.log(user); 
   return (
     <BrowserRouter>
     <div className="App">

@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import "./Navbar.css";
 import hmovies from "../../images/hmovies.png";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+// import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import LogoutIcon from '@mui/icons-material/Logout';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar({ showSignInButton, logOut, show }) {
@@ -69,7 +70,7 @@ function Navbar({ showSignInButton, logOut, show }) {
             }
             className="navbar_icon"
           >
-          <AccountCircleIcon />
+          <LogoutIcon />
         </p>
        </>
       )}
